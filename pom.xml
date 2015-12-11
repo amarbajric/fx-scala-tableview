@@ -10,6 +10,11 @@
 
     <name>net.ladstatt.fx-scala-tableview</name>
 
+    <properties>
+        <scalaVersion>2.11.6</scalaVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <developers>
         <developer>
             <name>Robert Ladstaetter</name>
@@ -17,10 +22,6 @@
             <email>rladstaetter@gmail.com</email>
         </developer>
     </developers>
-
-    <properties>
-        <scalaVersion>2.11.6</scalaVersion>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -40,6 +41,7 @@
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
+                <version>3.2.2</version>
                 <executions>
                     <execution>
                         <goals>
@@ -86,7 +88,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>fhj.swengb.homework.DbTool</mainClass>
+                            <mainClass>net.ladstatt.fx.tableview.TableViewExample</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
