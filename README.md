@@ -1,3 +1,9 @@
 # fx-scala-tableview
 
-An example to use a javafx table view with scala
+
+![JavaFX TableView Example](JavaFXTableViewWithScala.png)
+
+
+An example to use a javafx table view with scala.
+
+
